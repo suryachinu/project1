@@ -1,0 +1,5 @@
+EXPORT M2_HOME=/root/suri/maven3
+EXPORT PATH=$M2_HOME/bin:/$PATH
+EXPORT TOMCAT=/root/suri/tomcat9
+EXPORT PATH=$TOMCAT/bin:/$PATH
+
