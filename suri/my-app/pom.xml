@@ -49,13 +49,13 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.1</version>
         </plugin>  
-        <plugin>
-        <artifactId>maven-war-plugin</artifactId>
-        <version>3.3.1</version>
-          <configuration>
-            <failonmissingweb.xml>false</failonmissingweb.xml>
-          </configuration>
-        </plugin>
+     <plugin>
+       <artifactId>maven-war-plugin</artifactId>
+       <version>2.4</version>
+        <configuration>
+        <failOnMissingWebXml>false</failOnMissingWebXml>
+       </configuration>
+       </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
           <version>2.5.2</version>
